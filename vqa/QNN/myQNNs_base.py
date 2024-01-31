@@ -6,8 +6,8 @@ import itertools
 import copy
 import seaborn as sns
 
-from VQA_optimizers import qml_optimizers
-from VQA_optimizers.base import init_logging
+from vqa.VQA_optimizers import qml_optimizers
+from vqa.VQA_optimizers.base import init_logging
 
 import seaborn as sns
 

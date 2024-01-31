@@ -6,8 +6,8 @@ import itertools
 import copy
 import seaborn as sns
 
-from VQA_optimizers import qml_optimizers
-from VQA_optimizers.base import init_logging
+from vqa.VQA_optimizers import qml_optimizers
+from vqa.VQA_optimizers.base import init_logging
 
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
@@ -30,7 +30,7 @@ from sklearn.model_selection import train_test_split
 
 import inspect
 
-from myQNNs_base import *
+from vqa.QNN.myQNNs_base import *
 
 import matplotlib.ticker as ptick
 
